@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Details:"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="90sp"
+        android:id="@+id/submit"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/idname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80sp"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="Name:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+
+    <EditText
+        android:id="@+id/userId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80sp"
+        android:layout_marginTop="1sp"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/idname01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80sp"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="Class Name:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+
+    <EditText
+        android:id="@+id/userId01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80sp"
+        android:layout_marginTop="1sp"
+        android:hint="Class Name"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/password01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80sp"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="Enrollment No:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enrollment No"
+        android:layout_marginTop="1sp"
+        android:layout_marginLeft="80sp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:id="@+id/pass"
+        android:inputType="number"
+        />
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80sp"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="Seat Number:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Seat Number"
+        android:layout_marginTop="1sp"
+        android:layout_marginLeft="80sp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:id="@+id/pass02"
+        android:inputType="number"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See Details"
+        android:textSize="25sp"
+        android:layout_marginLeft="135sp"
+        android:layout_marginTop="15sp"
+        android:textStyle="bold"
+        android:id="@+id/btn01"
+
+        />
+</LinearLayout>
